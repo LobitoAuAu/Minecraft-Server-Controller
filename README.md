@@ -11,5 +11,11 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
 
 ### **Dentro este, estarão contidas as seguintes variáveis:**
 
-## Nome do Servidor (Padrão: "Mine-Server")
+# Nome do Servidor (Padrão: "Mine-Server")
 NOMESERV=
+
+# Nome do Arquivo .jar (Padrão: "server.jar")
+JAVA=
+
+# Quantidade de RAM a ser Utilizada (Ex.: 4GB ou 4096M)
+RAM=

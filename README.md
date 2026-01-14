@@ -1,7 +1,7 @@
 # Minecraft-Server-Controller
 
-# SOBRE:
+# 📌 [SOBRE]:
 Controlador Automatizado de Servidor Minecraft, com Integração ao Discord via BOT!
 
-# TUTORIAL: Instalação + Configuração
+# 📚 [TUTORIAL]: Instalação + Configuração
 

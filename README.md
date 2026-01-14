@@ -9,4 +9,7 @@ Arraste os arquivos 'MinecraftServerController.exe', 'server_config.env' & 'mens
 
 Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server.properties' -* as configurações já presentes no servidor *(IP, Porta & Senha RCON utilizados)* serão automaticamente atribuidos ao arquivo de configuração 'server_config.env'.
 
-**Dentro este, estarão contidas as seguintes variáveis:**
+## **Dentro este, estarão contidas as seguintes variáveis:**
+
+### Nome do Servidor (Padrão: "Mine-Server")
+NOMESERV=

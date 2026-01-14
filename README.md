@@ -82,3 +82,5 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
   Atalho para fechar o Controlador  
   *(FECHE O CONTROLADOR PELO ATALHO!)*  
   *Padrão:* `ctrl+l`
+  
+## 🌐 [TUTORIAL]: Criação e Integração do Bot do Discord

@@ -32,5 +32,53 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
   Porta do Servidor  
   *Padrão:* `25565`
 
----
+#### [Configurações RCON]
+- **`RCONIP`**  
+  IP para conexão ao RCON  
+  *Padrão:* IP do servidor
 
+- **`RCONPORT`**  
+  Porta para conexão ao RCON  
+  *Padrão:* `25575`
+
+- **`RCONPASS`**  
+  Senha para login no RCON  
+  *Padrão: A mesma configurada no arquivo `server.properties`*
+  
+#### [Integração com Discord]
+- **`DISCOBOT`**  
+  Ativa ou desativa a integração com o Discord  
+  *Opções:* `Yes` / `No`
+
+- **`BOTTOKEN`**  
+  Token secreto do Bot do Discord  
+  ⚠️ *Nunca compartilhe esta chave*
+
+- **`BOTCHANNEL`**  
+  ID do canal do Discord utilizado para interação com o bot
+
+- **`ADMROLE`**  
+  Nome do cargo permitido a controlar o bot via comandos  
+  *Padrão:* `Adm`
+
+#### [Atalhos de Teclado]
+- **`HOTSTART`**  
+  Atalho para iniciar o servidor  
+  *Padrão:* `ctrl+i`
+
+- **`HOTSTOP`**  
+  Atalho para desligar o servidor normalmente  
+  *Padrão:* `ctrl+p`
+
+- **`HOTFSTOP`**  
+  Atalho para forçar o desligamento do servidor  
+  *Padrão:* `ctrl+shift+p`
+
+- **`HOTRESTART`**  
+  Atalho para reiniciar o servidor  
+  *Padrão:* `ctrl+r`
+
+- **`HOTCLOSE`**  
+  Atalho para fechar o Controlador  
+  ⚠️ *(RECOMENDADO)*  
+  *Padrão:* `ctrl+l`

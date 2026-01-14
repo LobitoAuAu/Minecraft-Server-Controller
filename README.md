@@ -52,7 +52,7 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
 
 - **`BOTTOKEN`**  
   Token secreto do Bot do Discord  
-  ⚠️ *Nunca compartilhe esta chave*
+  *NUNCA compartilhe esta chave!*
 
 - **`BOTCHANNEL`**  
   ID do canal do Discord utilizado para interação com o bot

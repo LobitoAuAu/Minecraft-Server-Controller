@@ -80,5 +80,5 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
 
 - **`HOTCLOSE`**  
   Atalho para fechar o Controlador  
-  ⚠️ *(RECOMENDADO)*  
+  *(FECHE O CONTROLADOR PELO ATALHO!)*  
   *Padrão:* `ctrl+l`

@@ -82,3 +82,21 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
   *Padrão:* `ctrl+l`
   
 ## 🌐 [TUTORIAL]: Criação e Integração do Bot do Discord
+
+Crie uma Nova Aplicação em https://discord.com/developers/applications/ clicando em: **New Application**, e dê o nome desejado a esta.
+
+Na aplicação criada, vá na aba **Installation** no menu à direita. Desabilite a opção **User Install**, e deixe o campo **Install Link** como **None** (nenhum).
+
+Na aba de configurações do Bot (**Bot**), ative as opções **SERVER MEMBERS INTENT** e **MESSAGE CONTENT INTENT**.
+
+Ainda na mesma aba, para adquirir um token para o Bot, Clique na caixa **Reset Token** para gerar um token novo.
+
+De volta no **server_config.env**, cole o token adquirido na linha **'BOTTOKEN='**.
+
+De volta na página, na aba **General Information**, copie o **Application ID** e o cole - _CTRL+V_ - na seguinte página: https://scarsz.me/authorize. Aberta a Aba no seu Discord, selecione o servidor desejado e clique em **Autorizar**.
+
+No seu Discord, acesse nas **Configurações de Usuário** - Pela engrenagem localizada no canto inferior esquerdo - e vá na aba **Avançado**. Nesta, habilite a checagem **Modo Desenvolvedor**.
+
+No Servidor, clique com o botão direito em cima do canal desejado para o Bot, e clique em: **Copiar ID do Canal**. No **server_config.env**, cole o ID do Canal na linha **BOTCHANNEL=**.
+
+Para escolher um cargo permitido de usar os comandos do Bot,  No **server_config.env**, digite o nome do cargo na linha **ADMROLE=**.

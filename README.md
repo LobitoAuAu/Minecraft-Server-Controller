@@ -7,6 +7,8 @@ Arraste os arquivos 'MinecraftServerController.exe', 'server_config.env' & 'mens
 
 Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server.properties' -* as configurações já presentes no servidor *(IP, Porta & Senha RCON utilizados)* serão automaticamente atribuidos ao arquivo de configuração 'server_config.env'.
 
+Por padrão, o servidor virá utilizando apenas 4GB de RAM. Tal propriedade pode ser alterada no campo **RAM** do arquivo de configuração.
+
 ### **Dentro deste arquivo, estarão contidas as seguintes variáveis:**
 
 #### [Configurações do Servidor]
@@ -91,12 +93,12 @@ Na aba de configurações do Bot (**Bot**), ative as opções **SERVER MEMBERS I
 
 Ainda na mesma aba, para adquirir um token para o Bot, Clique na caixa **Reset Token** para gerar um token novo.
 
-De volta no **server_config.env**, cole o token adquirido na linha **'BOTTOKEN='**.
+De volta no **server_config.env**, cole o token adquirido na linha **'BOTTOKEN'**.
 
 De volta na página, na aba **General Information**, copie o **Application ID** e o cole - _CTRL+V_ - na seguinte página: https://scarsz.me/authorize. Aberta a Aba no seu Discord, selecione o servidor desejado e clique em **Autorizar**.
 
 No seu Discord, acesse nas **Configurações de Usuário** - Pela engrenagem localizada no canto inferior esquerdo - e vá na aba **Avançado**. Nesta, habilite a checagem **Modo Desenvolvedor**.
 
-No Servidor, clique com o botão direito em cima do canal desejado para o Bot, e clique em: **Copiar ID do Canal**. No **server_config.env**, cole o ID do Canal na linha **BOTCHANNEL=**.
+No Servidor, clique com o botão direito em cima do canal desejado para o Bot, e clique em: **Copiar ID do Canal**. No **server_config.env**, cole o ID do Canal na linha **'BOTCHANNEL'**.
 
-Para escolher um cargo permitido de usar os comandos do Bot,  No **server_config.env**, digite o nome do cargo na linha **ADMROLE=**.
+Para escolher um cargo permitido de usar os comandos do Bot,  No **server_config.env**, digite o nome do cargo na linha **'ADMROLE'**.

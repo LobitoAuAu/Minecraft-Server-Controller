@@ -1,43 +1,42 @@
 Prefixo-Chat: "§4§l<TORRE>:§c§o§l "
 
 Prefixo-Titulo:
-  Comeco: '§4§k..:§4§l '
-  Final: ' §4§k:..'
+  Comeco: ''
+  Final: ''
 
 Aviso-Modo-Bateria:
   Console-Discord:
     - "Computador Do Servidor Em Modo Bateria!"
   Chat:
-    - "O Computa-Verso Está em Energia Reserva!"
+    - "Computador Do Servidor Em Modo Bateria!"
     
 Aviso-Na-Energia:
   Console-Discord:
     - "Computador do Servidor foi Reconectado à Energia!"
   Chat:
-    - "A Energia Primária do Computa-Verso foi Restaurada!"
+    - "Computador do Servidor foi Reconectado à Energia!"
 
 Nivel-Bateria:
   Console-Discord:
     - "Nível de Bateria Restante em: {i}%..."
   Chat:
-    - "Os Níveis de Energia Reserva Restante Decaíram à: {i}%..."
+    - "Nível de Bateria Restante em: {i}%..."
     
 Nivel-Bateria-Baixa:
   Console:
     - "Os Jogadores foram Notificados a Encerrarem suas Tarefas no Servidor."
   Chat:
-    - "Finalizem suas Tarefas e Procurem por Abrigo..."
+    - "Caso o Nível de Bateria Caia para Abaixo de 15%, o Servidor Será Desligado Automaticamente..."
 
 Nivel-Critico:
   Console-Discord:
     - "Nível de Bateria Restante em: {i}: Nível Crítico Atingido"
     - "Foi iniciado o processo de desligamento automático."
   Chat:
-    - "ALERTA CRÍTICO:"
-    - "Os Níveis de Energia Reserva Decaíram para {i}%!"
-    - "Para a Prevenção de Danos Irreparáveis à Realidade,"
-    - "Esta Terá Suas Operações ANIQUILADAS em Dentro de:"
-    - "{j} Segundo(s)!"
+    - "O Nível de Bateria Caiu à {i}%!"
+    - "Para a prevenção de perda de dados,"
+    - "O servidor se auto desligará em dentro de:"
+    - "{j} Segundo(s)."
     
 Tempo-Auto-Desligamento:
   Console-Discord:
@@ -47,7 +46,7 @@ Contagem-Para-Desligar:
   Console-Discord:
     - "{i} Segundo(s) até o Desligamento do Servidor."
   Chat:
-    - "{i} Segundo(s) Até o Fim..."
+    - "{i} Segundo(s) Restantes..."
   Titulo:
     - "{i} SEGUNDOS(s)..."
     
@@ -65,7 +64,7 @@ Fim-Da-Contagem:
   Console-Discord:
     - "Desligamento Automático Requisitado."
   Chat:
-    - "O Desligament§ko Auto§kmático d§ka §kRealidade f§koi §l§kRequisitado..."
+    - "O Desligament§ko Auto§kmático f§koi §l§kRequisitado..."
 
 Ultimas-Palavras:
     - "... ADEUS."

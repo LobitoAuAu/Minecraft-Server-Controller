@@ -7,8 +7,6 @@ Arraste os arquivos 'MinecraftServerController.exe', 'server_config.env' & 'mens
 
 Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server.properties' -* as configurações já presentes no servidor *(IP, Porta & Senha RCON utilizados)* serão automaticamente atribuidos ao arquivo de configuração 'server_config.env'.
 
-Por padrão, o servidor virá utilizando apenas 4GB de RAM. Tal propriedade pode ser alterada no campo **RAM** do arquivo de configuração.
-
 ### **Dentro deste arquivo, estarão contidas as seguintes variáveis:**
 
 #### [Configurações do Servidor]
@@ -82,6 +80,9 @@ Por padrão, o servidor virá utilizando apenas 4GB de RAM. Tal propriedade pode
   Atalho para fechar o Controlador  
   *(FECHE O CONTROLADOR PELO ATALHO!)*  
   *Padrão:* `ctrl+l`
+
+Por padrão, o servidor virá utilizando apenas 4GB de RAM. Tal propriedade pode ser alterada no campo **RAM** do arquivo de configuração!
+Quaisquer mensagens exibidas pelo controlador podem ser alteradas pelo arquivo de mensagens **'mensagens.yml'**.
   
 ## 🌐 [TUTORIAL]: Criação e Integração do Bot do Discord
 

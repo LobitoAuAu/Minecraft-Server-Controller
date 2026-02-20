@@ -1,7 +1,7 @@
 ## 📌 [SOBRE]:
 Controlador Automatizado de Servidor Minecraft, com Integração ao Discord via BOT! (Programado via Linguagem Python, Ver. 3.13.11).
 
-<img width="1729" height="837" alt="image" src="https://github.com/user-attachments/assets/86fdb1a2-a689-4a48-80c4-7899119a4b5c" />
+<img width="1689" height="835" alt="image" src="https://github.com/user-attachments/assets/92032596-de16-4c6c-9c43-a179d8711ea6" />
 
 ## 📚 [TUTORIAL]: Instalação + Configuração
 

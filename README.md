@@ -1,6 +1,8 @@
 ## 📌 [SOBRE]:
 Controlador Automatizado de Servidor Minecraft, com Integração ao Discord via BOT! (Programado via Linguagem Python, Ver. 3.13.11).
 
+<img width="1729" height="837" alt="image" src="https://github.com/user-attachments/assets/86fdb1a2-a689-4a48-80c4-7899119a4b5c" />
+
 ## 📚 [TUTORIAL]: Instalação + Configuração
 
 Arraste os arquivos 'MinecraftServerController.exe', 'server_config.env' & 'mensagens.yml' para dentro da pasta do servidor. *(A mesma cujo contenha o arquivo .jar do seu servidor. Ex.: "server.jar")*.

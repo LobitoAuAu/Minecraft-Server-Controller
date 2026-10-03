@@ -5,7 +5,7 @@ Controlador Automatizado de Servidor Minecraft, com Integração ao Discord via 
 
 ## 📚 [TUTORIAL]: Instalação + Configuração
 
-Arraste o executável 'MinecraftServerController.exe' e a pasta 'MSCData' para dentro da pasta do servidor. *(A mesma cujo contenha o arquivo .jar do seu servidor. Ex.: "server.jar")*.
+Arraste o script 'MinecraftServerController.yml' e a pastas 'MSCData' & 'Bibliotecas' para dentro da pasta do servidor. *(A mesma cujo contenha o arquivo .jar do seu servidor. Ex.: "server.jar")*.
 
 Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server.properties' -* as configurações já presentes no servidor *(IP, Porta & Senha RCON utilizados)* serão automaticamente atribuídos ao arquivo de configuração 'mscserver_config.yml'.
 

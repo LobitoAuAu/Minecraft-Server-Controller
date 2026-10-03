@@ -5,9 +5,9 @@ Controlador Automatizado de Servidor Minecraft, com Integração ao Discord via 
 
 ## 📚 [TUTORIAL]: Instalação + Configuração
 
-Arraste os arquivos 'MinecraftServerController.exe', 'server_config.env' & 'mensagens.yml' para dentro da pasta do servidor. *(A mesma cujo contenha o arquivo .jar do seu servidor. Ex.: "server.jar")*.
+Arraste o executável 'MinecraftServerController.exe' e a pasta 'MSCData' para dentro da pasta do servidor. *(A mesma cujo contenha o arquivo .jar do seu servidor. Ex.: "server.jar")*.
 
-Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server.properties' -* as configurações já presentes no servidor *(IP, Porta & Senha RCON utilizados)* serão automaticamente atribuidos ao arquivo de configuração 'server_config.env'.
+Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server.properties' -* as configurações já presentes no servidor *(IP, Porta & Senha RCON utilizados)* serão automaticamente atribuídos ao arquivo de configuração 'mscserver_config.yml'.
 
 ### **Dentro deste arquivo, estarão contidas as seguintes variáveis:**
 
@@ -16,18 +16,21 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
   Nome do Servidor  
   *Padrão:* `Mine-Server`
 
+- **`JAVARGS`**  
+  Argumentos do Java (JVM Arguments) na inicialização do servidor
+
 - **`JAVA`**  
   Nome do arquivo `.jar` do servidor  
   *Padrão:* `server.jar`
-
-- **`RAM`**  
-  Quantidade de memória RAM utilizada pelo servidor  
-  *Padrão:* `4GB` ou `4096M`
 
 - **`IPSERVER`**  
   IP do Servidor  
   *Padrão:* `localhost`
 
+- **`AUTOSHUT`**  
+  Quando Inativo... Tempo Até Auto-Desligar o Servidor Em Minutos (OPCIONAL!)
+  *Padrão:* `45`
+  
 - **`PORTSERVER`**  
   Porta do Servidor  
   *Padrão:* `25565`
@@ -35,7 +38,7 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
 #### [Configurações RCON]
 - **`RCONIP`**  
   IP para conexão ao RCON  
-  *Padrão:* IP do servidor
+  *Padrão: IP do servidor* 
 
 - **`RCONPORT`**  
   Porta para conexão ao RCON  
@@ -44,6 +47,11 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
 - **`RCONPASS`**  
   Senha para login no RCON  
   *Padrão: A mesma configurada no arquivo `server.properties`*
+
+#### [Configurações QUERY]
+- **`QUERYPORT`**  
+  Porta para conexão ao RCON  
+  *Padrão: Porta do Servidor* 
   
 #### [Integração com Discord]
 - **`DISCOBOT`**  
@@ -55,35 +63,11 @@ Quando aberto o Controlador pela primeira vez *- caso presente o arquivo 'server
   *NUNCA compartilhe esta chave!*
 
 - **`BOTCHANNEL`**  
-  ID do canal do Discord utilizado para interação com o bot
+  ID do Canal do Servidor p/ Interação do Bot
 
 - **`ADMROLE`**  
-  Nome do cargo permitido a controlar o bot via comandos  
-  *Padrão:* `Adm`
+  ID do Cargo p/ Controlar o Bot Via Comandos  
 
-#### [Atalhos de Teclado]
-- **`HOTSTART`**  
-  Atalho para iniciar o servidor  
-  *Padrão:* `ctrl+i`
-
-- **`HOTSTOP`**  
-  Atalho para desligar o servidor normalmente  
-  *Padrão:* `ctrl+p`
-
-- **`HOTFSTOP`**  
-  Atalho para forçar o desligamento do servidor  
-  *Padrão:* `ctrl+shift+p`
-
-- **`HOTRESTART`**  
-  Atalho para reiniciar o servidor  
-  *Padrão:* `ctrl+r`
-
-- **`HOTCLOSE`**  
-  Atalho para fechar o Controlador  
-  *(FECHE O CONTROLADOR PELO ATALHO!)*  
-  *Padrão:* `ctrl+l`
-
-Por padrão, o servidor virá utilizando apenas 4GB de RAM. Tal propriedade pode ser alterada no campo **RAM** do arquivo de configuração!
 Quaisquer mensagens exibidas pelo controlador podem ser alteradas pelo arquivo de mensagens **'mensagens.yml'**.
   
 ## 🌐 [TUTORIAL]: Criação e Integração do Bot do Discord
@@ -102,6 +86,6 @@ De volta na página, na aba **General Information**, copie o **Application ID** 
 
 No seu Discord, acesse nas **Configurações de Usuário** - Pela engrenagem localizada no canto inferior esquerdo - e vá na aba **Avançado**. Nesta, habilite a checagem **Modo Desenvolvedor**.
 
-No Servidor, clique com o botão direito em cima do canal desejado para o Bot, e clique em: **Copiar ID do Canal**. No **server_config.env**, cole o ID do Canal na linha **'BOTCHANNEL'**.
+No Servidor, clique com o botão direito em cima do canal desejado para o Bot, e clique em: **Copiar ID do Canal**. No **'mscserver_config.yml'**, cole o ID do Canal na linha **'BOTCHANNEL'**.
 
-Para escolher um cargo permitido de usar os comandos do Bot,  No **server_config.env**, digite o nome do cargo na linha **'ADMROLE'**.
+Para escolher um cargo permitido de usar os comandos do Bot, no servidor, clique com o botão direito em cima do cargo desejado, e clique em: **Copiar ID do Cargo**. No **'mscserver_config.yml'**, cole o ID cargo na linha **'ADMROLE'**.

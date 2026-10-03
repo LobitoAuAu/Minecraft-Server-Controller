@@ -1,0 +1,366 @@
+Prefixo-Chat: "§f§l<§a§lMINE§f§l-§b§lSERVER§f§l>:§f§o§l "
+
+Prefixo-Titulo:
+  Comeco: '§f§f§l| §7§l'
+  Final: ' §f§l|'
+
+Aviso-Modo-Bateria:
+  Console-Discord:
+    - "O Servidor/Host Está em Modo Bateria!"
+  Chat:
+    - "O Servidor/Host Está em Modo Bateria!"
+    
+Aviso-Na-Energia:
+  Console-Discord:
+    - "O Servidor/Host foi Reconectado à Energia!"
+  Chat:
+    - "O Servidor/Host foi Reconectado à Energia!"
+
+Nivel-Bateria:
+  Console-Discord:
+    - "Nível de Bateria Restante: {i}%..."
+  Chat:
+    - "Nível de Bateria Restante: {i}%..."
+    
+Nivel-Bateria-Baixa:
+  Console:
+    - "Os Jogadores foram Notificados a Encerrarem suas Tarefas."
+  Chat:
+    - "Finalizem suas Tarefas/Atividades Atuais para Evitar Perdas."
+    
+Nivel-Critico:
+  Console-Discord:
+    - "Nível de Bateria Restante: {i}: Nível Crítico Atingido"
+    - "Será iniciado o processo de desligamento automático."
+  Chat:
+    - "ALERTA:"
+    - "Afim de Evitar a Perda de Dados..."
+    - "O Servidor Será Desligado Automaticamente em Dentro de:"
+    - "{j} Segundo(s)!"
+    
+Tempo-Auto-Desligamento:
+  Console-Discord:
+    - "Tempo Até o Desligamento: {i}"
+    
+Contagem-Para-Desligar:
+  Console-Discord:
+    - "{i} Segundo(s) até o Desligamento do Servidor."
+  Chat:
+    - "{i} Segundo(s) Restantes..."
+  Titulo:
+    - "{i} SEGUNDOS(s)..."
+    
+Contagem-Final-Iniciada:
+  Console-Discord:
+    - "Iniciada a Contagem Final..."
+    
+Contagem-Final:
+  Chat:
+    - "{i} Segundo(s)!.."
+  Titulo:
+    - "{i}"
+    
+Fim-Da-Contagem:
+  Console-Discord:
+    - "Contagem Final Encerrada: O Servidor Será Encerrado..."
+  Chat:
+    - "Desligando o Servidor... Bye bye!"
+
+Ultimas-Palavras:
+    - "... ADEUS."
+    - "... BONS SONHOS."
+    - "... FECHE OS OLHOS."
+    - "... IT'S OVER, BUDDY."
+    - "... INDOLOR?"
+    - "... BEIJINHOS."
+    - "... GG."
+    - "... HELLO? FRIEND."
+    - "... GAME OVER, MAN."
+    - "... CS:S REQUIRED."
+    - "... EU SINTO DOR."
+    - "... CULPA DO VIOLET."
+    - "... T A C O S"
+    - "... SALVOU MORRENDO?"
+    
+Comando-Sem-Permissao:
+  Console-Discord:
+    - "Usuário '{i}' Tentou usar os Comandos de Servidor SEM permissão!"
+    
+Comando-Canal-Errado:
+  Console-Discord:
+    - "Usuário '{i}' Tentou usar os Comandos de Servidor No Canal ERRADO!"
+ 
+Erro-Mensagem-Discord:
+  Console:
+    - "Não foi Possível Enviar a Mensagem {i} no Discord!"
+    
+Bot-Iniciando:
+  Console:
+    - "Tentando Se Conectar ao BOT do Discord..."
+    
+Bot-Erro-Generico:
+  Console:
+    - "O BOT NÃO Conseguiu Estabelecer Conexão ao Servidor pelo Seguinte Erro!:\n{i}"
+    
+Bot-Perdeu-Conexao:
+  Console:
+    - "O BOT Perdeu Conexão com o Servidor do Discord!"
+    
+BOT-Recuperou-Conexao:
+  Console:
+    - "O BOT Recuperou Conexão com o Servidor do Discord!"
+  Discord:
+    - "Eu CAI, Mas Voltei FIRME e FORTE!"
+    
+BOT-Desligado:
+  Console:
+    - "O BOT do Servidor foi DESLIGADO!"
+  Discord:
+    - ":red_circle: | O BOT Está **DESLIGADO**!"
+    
+Bot-Estabeleceu-Conexao:
+  Console:
+    - "O BOT Estabeleceu Conexão com o Servidor!"
+    
+Bot-Conectado:
+  Console:
+    - "Bot Conectado com Sucesso Como: '{i}'!"
+
+Bot-Conectado-Ao-Canal:
+  Console:
+    - "O Bot Conseguiu acesso ao Canal: '{i}'!"
+  Discord:
+    - ":green_circle: | O BOT Foi **LIGADO** e se Encontra **OPERANTE**!"
+    
+Bot-Nao-Conectou-Ao-Canal:
+  Console:
+    - "O Bot NÃO pode se Conectar ao Canal de Comandos!"
+    
+Bot-Comando-Iniciar:
+  Discord:
+    - "O Usuário **'{i}'** Acabou de Requisitar a **Inicialização** do **Servidor**!"
+    
+Bot-Comando-Parar:
+  Discord:
+    - "O Usuário **'{i}'** Acabou de Requisitar o **Desligamento** do **Servidor**!"
+    
+Bot-Comando-Forcar-Parada:
+  Discord:
+    - "O Usuário **'{i}'** Acabou de Requisitar o **Desligamento** do **Servidor**!"
+    
+Bot-Comando-Reiniciar:
+  Discord:
+    - "O Usuário **'{i}'** Acabou de Requisitar a **Reinicialização** do **Servidor**!"
+    
+Bot-Comando-Jogadores:
+  Discord:
+    - "O Usuário **'{i}'** Acabou de Requisitar a **Lista de Jogadores** no **Servidor**!"
+    
+RCON-Conectado:
+  Console:
+    - "RCON Conectado com Sucesso!"
+  Discord:
+    - "RCON Conectado com Sucesso: Comandos ao Servidor **Ativos**!" 
+
+RCON-Servidor-Inativo:
+  Console:
+    - "Comando RCON Enviado pelo Discord foi Recusado pois o servidor NÃO Está Aberto!"
+  Discord:
+    - "O Servidor NÃO está Aberto!"
+   
+RCON-Resposta-Servidor:
+  Console:
+    - "Resposta do Servidor: {i}"
+  Discord:
+    - "***Resposta** do **Servidor**: __{i}__*"
+    
+RCON-Erro-Digitacao:
+  Console:
+    - "O Comando Enviado pelo Usuário no Discord '{i}' FALHOU por um Erro de Digitação!"
+  Discord:
+    - "**Erro De Digitação**: Revise o Comando Enviado e Tente Novamente!"
+    
+RCON-Erro-Comunicacao:
+  Console:
+    - "O Seguinte Comando: '{i}' NÃO Pode ser Enviado por um Erro de Comunicação ao RCON!"
+    
+RCON-Comando-Discord:
+  Console:
+    - "Comando {i} Enviado no Discord Pelo Usuário '{j}'..."
+  Discord:
+    - "O Usuário **'{i}'** Acabou de **Enviar** o **Comando**: '__{j}__' Para o **Servidor**!"
+    
+RCON-Comando-Timeout:
+  Console-Discord:
+    - "O Seguinte Comando: '{i}' FOI Enviado, Porém o Servidor NÃO Está Respondendo!"
+
+RCON-Erro-Generico:
+  Console-Discord:
+    - "ERRO INESPERADO ao Enviar o Seguinte Comando {i}!"
+    
+Falha-Mensagem-Discord:
+  Console:
+    - "A Mensagem Ao Discord foi IGNORADA, pois o BOT NÃO está Conectado!"
+    
+Estado-Internet-Perdida:
+  Console:
+    - "A Conexão à Internet foi Perdida!"
+    
+Estado-Internet-Recuperada:
+  Console-Discord:
+    - "A Conexão à Internet foi Recuperada!"
+
+Estado-Servidor-Caido:
+  Console-Discord:
+    - "O Acesso (IP e Porta) Do Servidor Caíram do Ar!"
+    
+Estado-Servidor-Reativo:
+  Console-Discord:
+    - "O Acesso (IP e Porta) Do Servidor Retornou ao Ar!"
+    
+Estado-RCON-Caido:
+  Console:
+    - "Conexão com o RCON Perdida!"
+  Discord:
+    - "Conexão com o RCON **Perdida**: Comandos **Indisponíveis!**"
+    
+Estado-RCON-Reativo:
+  Console:
+    - "Conexão com o RCON Recuperada!"
+  Discord:
+    - "Conexão com o RCON **Recuperada**: Comandos de **Volta ao Ar**!"
+
+Estado-Servidor-Fechado:
+  Console-Discord:
+    - "O Servidor foi Fechado!"
+    
+Tarefa-Iniciar:
+  Console-Discord:
+    - "Aguarde, o Servidor Será Aberto..."
+
+Tarefa-Em-Andamento:
+  Console-Discord:
+    - "Uma Operação JÁ Está em Andamento!"
+    
+Tarefa-Ja-Aberto:
+  Console-Discord:
+    - "O Servidor JÁ Está Aberto!"
+    
+Tarefa-Nao-Aberto:
+  Console-Discord:
+    - "O Servidor NÃO Está Aberto!"
+
+Tarefa-Iniciar-Ja-Aberto:
+  Console:
+    - "O Servidor Já Está Aberto no Processo de Seguinte PID: {i}"
+    
+Tarefa-Iniciar-Conexao-IP:
+  Console-Discord:
+    - "Tentando Estabelecer Conexão ao Servidor sob o Seguinte IP: '{i}', e Porta: '{j}'..."
+    
+Tarefa-Iniciar-Conexao-RCON:
+  Console-Discord:
+    - "Tentando Estabelecer Conexão ao RCON sob o Seguinte IP: '{i}', e Porta: '{j}'..."
+    
+Tarefa-Iniciar-IP-Ativo:
+  Console-Discord:
+    - "O IP e Porta do Servidor Ativos!"
+    
+Tarefa-Iniciar-Concluida:
+  Console-Discord:
+    - "Operação de Inicialização Concluída!"
+    
+Tarefa-Iniciar-RCON-Falha:
+  Console:
+    - "NÃO foi Possível Conectar-se ao RCON do Servidor!"
+  Discord:
+    - "NÃO foi Possível Conectar-se ao RCON do Servidor: Comandos Indisponíveis!"
+    
+Tarefa-Iniciar-IP-Falha:
+  Console-Discord:
+    - "Não Foi Possível Conectar-se ao IP & Porta do Servidor!"
+    
+Tarefa-Iniciar-Falha:
+  Console-Discord:
+    - "O Servidor NÃO Pôde ser Iniciado!"
+
+Tarefa-Iniciar-Sem-Internet:
+  Console:
+    - "Você NÃO Está Conectado à Internet!"
+    
+Tarefa-Iniciar-Modo-Bateria:
+  Console-Discord:
+    - "O Servidor Está sendo Iniciando enquanto o Host Se Encontra no Modo Bateria!\nCaso o Nível Abaixe à 15%, ele Será Automaticamente DESLIGADO!"
+   
+Tarefa-Iniciar-Tempo-Inativo:
+  Console-Discord:
+    - "Após {i} de Inatividade, o Servidor Será Automaticamente DESLIGADO!"
+
+Tarefa-Parar:
+  Console-Discord:
+    - "Aguarde, o Servidor Será Fechado..."
+    
+Tarefa-Parar-RCON-Inativo:
+  Console-Discord:
+    - "O RCON do Servidor se Encontra INATIVO!\nO Servidor Será Finalizado à Força..."
+
+Tarefa-Parar-Longo-Tempo:
+  Console-Discord:
+    - "O Servidor Está Demorando Tempo Demais Para Ser Encerrado..."
+    - "Após {i}, o Servidor Será Finalizado à Força."
+    
+Tarefa-Parar-Tempo-Limite:
+  Console-Discord:
+    - "Tempo Limite de Espera Atingido!"
+    
+Tarefa-Parar-Forcar-Parada:
+  Console-Discord:
+    - "Forçando o Fechamento do Servidor..."
+    
+Tarefa-Parar-Concluida:
+  Console-Discord:
+    - "Operação de Desligamento Concluída!"
+    
+Tarefa-Reiniciar:
+  Console-Discord:
+    - "O Servidor Será Reiniciado..."
+
+Tarefa-Terminal-Servidor-Aberto:
+  Console:
+    - "Operação NEGADA: O Servidor AINDA Está Aberto!"
+
+Tarefa-Terminal:
+  Console-Discord:
+    - "Foi Requisitado o Fechamento do Terminal"
+    
+Tarefa-Terminal-Concluida:
+  Console:
+    - "Agradecemos pela Sua Preferência! <3"
+
+Terminal-Fechado-Abruptamente:
+  Console:
+    - "O Terminal do Servidor Foi Desligado de Forma INESPERADA!\nSe Isso NÃO Foi um Acidente, Por Favor, UTILIZE o Atalho 'CTRL+L' Para Finalizar o Terminal CORRETAMENTE!"
+
+Terminal-Sem-Internet:
+  Intro:
+    - "Você NÃO Está Conectado à Internet!"
+  Loop:
+    - "Atualizando a Verificação em Dentro de: {i} Segundos..."
+  Nag:
+    - "... Você Já Sabe."
+    - "Você AINDA NÃO Está Conectado à Internet!"
+    - "... Advinha?"
+    - "... Eu tenho o dia todo para te lembrar disso."
+    - "... Você ESTÁ-... NÃO ESTÁ Conectado à Internet!"
+    - "... Dizem que loucura é tentar as mesmas coisas esperando resultados diferent-"
+    - "... Ugh. Eu me sinto como um algoritmo, a esse ponto."
+
+Terminal-Sem-Discord:
+  Console:
+    - "BOT do Discord Se Encontra DESATIVADO..."
+    - "Tal configuração pode ser alterada no arquivo '{i}'."
+    
+Terminal-Sem-Discord:
+  Console:
+    - "BOT do Discord Se Encontra DESATIVADO..."
+    - "Tal configuração pode ser alterada no arquivo '{i}'."

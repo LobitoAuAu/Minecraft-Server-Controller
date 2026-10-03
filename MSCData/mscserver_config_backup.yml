@@ -1,0 +1,76 @@
+# Nome do Servidor (Padrão: "Mine-Server")
+NOMESERV: 
+
+# Nome do Arquivo .jar (Padrão: "server.jar")
+JAVA: 
+
+JAVARGS:
+  - "-Xms8192M"
+  - "-Xmx8192M"
+  - "--add-modules=jdk.incubator.vector"
+  - "-XX:+UseG1GC"
+  - "-XX:+ParallelRefProcEnabled"
+  - "-XX:MaxGCPauseMillis=200"
+  - "-XX:+UnlockExperimentalVMOptions"
+  - "-XX:+DisableExplicitGC"
+  - "-XX:+AlwaysPreTouch"
+  - "-XX:G1HeapWastePercent=5"
+  - "-XX:G1MixedGCCountTarget=4"
+  - "-XX:InitiatingHeapOccupancyPercent=15"
+  - "-XX:G1MixedGCLiveThresholdPercent=90"
+  - "-XX:G1RSetUpdatingPauseTimePercent=5"
+  - "-XX:SurvivorRatio=32"
+  - "-XX:+PerfDisableSharedMem"
+  - "-XX:MaxTenuringThreshold=1"
+  - "-Dusing.aikars.flags=https://mcflags.emc.gs"
+  - "-Daikars.new.flags=true"
+  - "-XX:G1NewSizePercent=30"
+  - "-XX:G1MaxNewSizePercent=40"
+  - "-XX:G1HeapRegionSize=8M"
+  - "-XX:G1ReservePercent=20"
+
+# IP p/ Conexão ao RCON (Padrão: IP Do Servidor)
+RCONIP: 
+
+# Porta p/ Conexão ao RCON (Padrão: "25575")
+RCONPORT: 
+
+# Porta p/ Conexão ao Query (Padrão: "25565")
+QUERYPORT: 
+
+# Senha p/ Login ao RCON (Atribuir no Arquivo 'server.properties')
+RCONPASS:
+
+# IP do Servidor (Padrão: "localhost")
+IPSERVER: 
+
+# Porta do Servidor (Padrão: "25565")
+PORTSERVER:
+
+# Habilitar/Desabilitar Integração ao Discord (Opções: Yes/No)
+DISCOBOT: No
+
+# Chave Secreta p/ Acessar o Bot
+BOTTOKEN:
+
+# ID do Canal do Servidor p/ Interação do Bot
+BOTCHANNEL:
+
+# ID do Cargo p/ Controlar o Bot Via Comandos
+ADMROLE: 
+
+# Quando Inativo... Tempo Até Auto-Desligar o Servidor Em Minutos (OPCIONAL!)
+AUTOSHUT: 45
+
+# SFX's & Músicas
+INFO: "Info.mp3"
+AVISO: "Aviso.mp3"
+FALHA: "Falha.mp3"
+SUCESSO: "Sucesso.mp3"
+BINARYFILL: "BinaryFill.mp3"
+PAINELOPCOES: "PainelOpcoes.mp3"
+MUSICCREDITOS: "MusicaCreditos.mp3"
+MUSICTAREFA: "MusicaTarefa.mp3"
+
+# NÃO ALTERAR!... <3
+SOFTSHUT: Yes
